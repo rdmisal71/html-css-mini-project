@@ -1,0 +1,196 @@
+header span{
+    background: linear-gradient(90deg, #864d25, #F4DFC8, #864d25);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+header{
+    text-align: center;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    transition:0.5s;
+}
+header:hover{
+    font-size: x-large;
+    transform: rotate(1turn);
+}
+body{
+    background-color: #FAF6F0;
+    margin: 0px;
+    
+}
+
+legend{
+    font-size: x-large;
+    background-color: #864d25;
+    color: #FFFDF6;
+}
+.nav{
+    text-align: center;
+}
+.nav p a{
+    color: #000000;
+    text-decoration: none;
+    opacity:0.5;
+    transition: 0.5s ease;
+    font-size: large;
+}
+.nav p a:hover{
+    opacity:1;
+    color: #864d25;
+    font-size: xx-large;
+}
+.contain{
+    display: flex; 
+    grid-template-columns: 1fr 6fr ;
+    column-gap: 0px;
+    background-color: #F4EAE0;
+    margin: 10px;
+}
+figure{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3{
+    text-decoration: underline;
+}
+.contain img{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.contain:hover img{
+    -webkit-filter: brightness(100%);
+}
+button:active{
+    background-color: #000000;
+    color: #F4EAE0;
+}
+
+.or{
+    width: 100%;
+    border-bottom: #000000 solid 1.5px;
+    line-height: 0;
+    margin: 10px 0 20px;
+}
+.or span{
+    background-color: #F4EAE0;
+    padding: 0 5px;
+}
+button{
+    background-color: #F4DFC8;
+    width: 30%;
+    border-radius: 25px;
+    margin: auto;
+}
+button:hover{
+    background-color: #864d25;
+}
+fieldset{
+    background-color: #F4EAE0;
+    text-align: center;
+    height: fit-content;
+    width: 35%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    margin-top: 0px ;
+    padding: 5px;
+    background: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.in input{
+    width: 70%;
+    height: 100%;
+    margin: 0px 0px 3px 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.label{
+    margin-bottom: 5px;
+    color: #282a35;
+    font-size: 20px;
+}
+.input{
+    display: flex; 
+    column-gap: 30px;
+}
+.input img{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+.inlink a img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.contain div p::first-letter{
+    color: #f5893c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+
+.emoji{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(241, 120, 33);
+    border-radius: 50%;
+}
+
+.eye1, .eye2{
+    height: 80px;
+    width: 80px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+.eye2{
+    left: 260px;
+}
+.mouth{
+    height: 75px;
+    width: 280px;
+    background-color: rgb(105, 17, 17);
+    position: absolute;
+    left: 60px;
+    top: 250px;
+    border-radius: 10px 10px 50px 50px;
+}
+.flex{
+    background-color: #000000;
+    height: 400px;
+    width: 400px;
+    margin: 50px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.red{
+    align-self: flex-end;
+
+}
+.v{
+    flex-grow: 1;
+}
+
+.input input{
+    width: 396px;
+}

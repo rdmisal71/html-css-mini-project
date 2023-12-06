@@ -1,0 +1,43 @@
+.rd{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 25px;
+}
+img{
+    width: 50%;
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:700px){
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+
+
+.flex{
+    height: 320px;
+    width: 620px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    
+}
+.item{
+    width: 50px;
+    height: 50px;
+}
+#one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
